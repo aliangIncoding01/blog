@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "doomliu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^3.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run update && git add ."
+    }
+  }
 }
