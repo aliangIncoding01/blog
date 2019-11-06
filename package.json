@@ -1,0 +1,12 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "update.js",
+  "scripts": {
+    "update": "node ./update.js"
+  },
+  "keywords": [],
+  "author": "doomliu",
+  "license": "ISC"
+}
