@@ -2,9 +2,9 @@
 目录（3）
 
 - [CSS](article/CSS)
-- [JavaScript](article/JavaScript)
-	- [异步调用演变历程](article/JavaScript/异步调用演变历程.md)
-	- [防抖、截流总结](article/JavaScript/防抖、截流总结.md)
+- [avaScript](article/avaScript)
+	- [异步调用演变历程](article/avaScript/异步调用演变历程.md)
+	- [防抖、截流总结](article/avaScript/防抖、截流总结.md)
 - [videoJS](article/videoJS)
 - [数据结构算法](article/数据结构算法)
 - [框架](article/框架)
