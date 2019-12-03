@@ -1,5 +1,5 @@
 ## 博客
-目录（5）
+目录（6）
 
 - [CSS](article/CSS)
 - [JavaScript](article/JavaScript)
@@ -17,3 +17,4 @@
 	- [状态管理](article/脚手架/状态管理)
 	- [路由](article/脚手架/路由)
 		- [react-router](article/脚手架/路由/react-router.md)
+		- [组织react-router的路由配置](article/脚手架/路由/组织react-router的路由配置.md)
