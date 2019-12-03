@@ -11,8 +11,8 @@ import ReactDom from 'react-dom';
 import Router from './router/index'; // 路由统一管理的入口文件
 
 ReactDom.render(
-	<Router />,
-	document.getElementById('root')
+<Router />,
+document.getElementById('root')
 );
 ```
 
