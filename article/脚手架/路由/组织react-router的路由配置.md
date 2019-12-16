@@ -183,6 +183,30 @@ function renderRoutes(routes, contentPath) {
 
 ```
 
+### render & component
+
+**区别：** 嵌套路由会给**render** 传入一个匿名函数，用来渲染嵌套组件路由，如果用component，则每次都会卸载原来的组件创建新的组件，浪费资源，源码如下：
+
+```
+return (
+  component ? ( // component prop gets first priority, only called if there's a match
+    match ? React.createElement(component, props) : null
+  ) : render ? ( // render prop is next, only called if there's a match
+    match ? render(props) : null
+  ) : children ? ( // children come last, always called
+    typeof children === 'function' ? (
+      children(props)
+    ) : !Array.isArray(children) || children.length ? ( // Preact defaults to empty children array
+      React.Children.only(children)
+    ) : (
+      null
+    )
+  ) : (
+    null
+  )
+)
+```
+
 
 
 
