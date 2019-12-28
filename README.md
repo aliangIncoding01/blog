@@ -1,12 +1,14 @@
 ## 博客
-目录（9）
+目录（11）
 
 - [CSS](article/CSS)
 - [JavaScript](article/JavaScript)
+	- [函数柯里化](article/JavaScript/函数柯里化.md)
 	- [异步调用演变历程](article/JavaScript/异步调用演变历程.md)
 	- [防抖、截流总结](article/JavaScript/防抖、截流总结.md)
 - [react](article/react)
 	- [Hook](article/react/Hook.md)
+	- [生命周期钩子](article/react/生命周期钩子.md)
 - [videoJS](article/videoJS)
 	- [仿videoJS实现视频插件](article/videoJS/仿videoJS实现视频插件.md)
 - [数据结构算法](article/数据结构算法)
