@@ -1,10 +1,11 @@
 ## 博客
-目录（11）
+目录（12）
 
 - [CSS](article/CSS)
 - [JavaScript](article/JavaScript)
 	- [函数柯里化](article/JavaScript/函数柯里化.md)
 	- [异步调用演变历程](article/JavaScript/异步调用演变历程.md)
+	- [数组函数方法总结](article/JavaScript/数组函数方法总结.md)
 	- [防抖、截流总结](article/JavaScript/防抖、截流总结.md)
 - [react](article/react)
 	- [Hook](article/react/Hook.md)
